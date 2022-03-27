@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyTestApp</string>
+    <string name="update">Обновить</string>
+    <string name="error_check_connection">Ошибка. Проверьте соединение</string>
+</resources>
