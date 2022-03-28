@@ -10,15 +10,15 @@ import java.util.ArrayList
 data class Images(
     val total: Int,
     val totalHits: Int,
-    val hits: ArrayList<Image>?
+    val hits: List<Image>
 )  {
 
 
     @Serializable
     data class Image(
         val id: Long,
-        val tags: String?,
-        val largeImageURL: String?,
+        val tags: String,
+        val largeImageURL: String,
         val imageWidth: Int,
         val imageHeight: Int,
         val views: Int,

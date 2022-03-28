@@ -67,6 +67,9 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1'
     kapt 'com.github.bumptech.glide:compiler:4.12.0'
 
+    // Pagging
+    implementation "androidx.paging:paging-runtime-ktx:3.1.1"
+
     //Nav Component
     implementation "androidx.navigation:navigation-fragment-ktx:2.4.1"
     implementation "androidx.navigation:navigation-ui-ktx:2.4.1"

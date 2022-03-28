@@ -6,8 +6,7 @@ import dagger.hilt.android.HiltAndroidApp
 @HiltAndroidApp
 class App: Application() {
 
-    override fun onCreate() {
-        super.onCreate()
-
+    companion object {
+        var screenWidth = 0
     }
 }
